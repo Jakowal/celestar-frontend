@@ -4,5 +4,7 @@
     "azureFunctions.projectLanguage": "JavaScript",
     "azureFunctions.projectRuntime": "~4",
     "debug.internalConsoleOptions": "neverOpen",
-    "azureFunctions.preDeployTask": "npm prune (functions)"
+    "azureFunctions.preDeployTask": "npm prune (functions)",
+    "appService.defaultWebAppToDeploy": "/subscriptions/642cef1d-ecd4-4eb5-b16e-412c278b380e/AppServices/subscriptions/642cef1d-ecd4-4eb5-b16e-412c278b380e/resourceGroups/Celestar/providers/Microsoft.Web/sites/celestar",
+    "appService.deploySubpath": "."
 }
